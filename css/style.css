@@ -2,16 +2,31 @@ html, body
 {
     margin: 0;
     padding:0;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    text-align: center;
+}
 
-.logo{
-	width:346px;
-	height:236px;
+h1 {
+    font-size: 40px;
+}
+
+.logo {
+	width:310px;
+	height:300px;
 	margin:auto;
-	margin-top:150px;
+	margin-top:10%;
 	position:relative;
 	z-index:1;
+}
+
+.logo img{
+	width:214px;
+	height:172px;
+	margin:0 auto;
 }
 
 canvas{
@@ -27,7 +42,7 @@ canvas{
     z-index: 2;
     padding-left: 10px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
 .item{
